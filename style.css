@@ -1,0 +1,337 @@
+@media only screen and (max-width: 980px){
+	header{
+		width: 200px;
+	}
+
+	#heading{
+		width: 650px;
+	}
+
+	#contents{
+		width: 650px;
+	}
+
+	#pagetheme{
+		float: left;
+		width: 380px;
+	}
+
+	#connect{
+		width: 160px;
+		float:right;
+	}
+
+	.navigationBar{
+		float: right;
+	}
+
+}
+
+@media only screen and (max-width: 768px){
+	header{
+		width: 200px;
+	}
+
+	#heading{
+		width: 650px;
+	}
+
+	#contents{
+		width: 650px;	
+	}
+
+	#pagetheme{
+		width: 380px;
+		margin-left: 100px;	
+	}
+
+	#connect{
+		width: 380px;
+		float: left;
+		margin-left: 100px;
+
+	}
+
+	.navigationBar{
+		float: right;
+	}
+	
+}
+
+@media only screen and (max-width: 640px){
+	header{
+		width: 100%;
+	}
+
+	#heading{
+		width:100%;
+	}
+
+	#contents{
+		width:100%;
+	}
+
+	#connect{
+
+		width: 90%;
+		margin-left:0px;
+
+	}
+
+	#pagetheme{
+		width: 90%;
+		margin-left: 0px;
+
+	}
+
+	.navigationBar{	
+		width: 100%;
+		text-align: center;
+	}
+	
+}
+
+
+body{
+	/*width:960px;*//*this was the assignment but I wanted 
+	the page to fit the size of the browser*/
+	width: auto;
+	margin: auto;
+}
+
+header{
+	color: white;
+	background-color: #4aaaa5;
+	/*width: 200px;*/
+	height: 60px;
+	float: left;
+}
+
+footer{
+	font-size: 80%;
+	height: 50px;
+	background-color: #777777;
+	border-top: 5px solid #4aaaa5;
+}
+
+h1, h2, h4{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1{
+	text-align: center;
+}
+h2{
+	color:#4aaaa5;
+	border-bottom: 2px solid #DBDBDB;
+	padding-bottom: 10px;
+}
+ 
+h4{
+	color: #4aaaa5;
+	border-bottom: 1.5px solid #EDEDED;
+	padding-bottom: 10px;
+}
+
+h5{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+	text-align: center;
+	font-weight: 400;
+	padding-top: 18px;
+	margin: 0px;
+}
+
+p{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 14px;
+}
+
+nav a{
+	text-decoration: none;
+	color: #777777;
+	font-size: 90%;
+}
+
+#main{
+	height: auto;
+	overflow: auto;
+	margin: 0px;
+	padding: 30px;
+	border-top: 2px solid #cacaca;
+	background-image: url("swirl_pattern.png");
+	align-content: center;
+}
+
+#heading{
+	/*width: 650px;*/
+	height: 60px;
+	margin: auto;
+}
+
+#contents{
+	/*before queries width: 650px;overflow: auto;*/
+	margin: auto;
+}
+
+#pagetheme{
+	/*before media queries float: left; width: 380px;*/
+	height: auto;
+	border: 1px solid #dddddd;
+	background-color: white;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+}
+
+#connect{
+	/* before media queries width: 160px;float: right;*/
+	height: 150px;
+	background-color: white;
+	border: 1px solid #dddddd;
+	text-align: center;
+	padding: 10px 20px;
+	margin-top: 20px;
+}
+
+.linkimg{
+	width: 45px;
+}
+
+.navigationBar{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #dddddd;
+	/*before media queries float: right; padding-top: 25px;*/
+	padding-top: 20px;
+	padding-bottom: 20px;	
+}
+
+/*index stuff*/
+#mePic{
+	float:left;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	width: 250px;
+}
+
+#aboutme{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	padding-left: 5px;
+	padding-top: 10px;
+	font-size: 14px;
+}
+
+/*contact stuff*/
+textarea{
+	width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    background-color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
+    color: #777777;
+    resize: none;
+}
+
+input[type=submit]{
+	width: 90px;
+	background-color: #4aaaa5;
+	color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	padding: 8px;
+	border: none;	
+}
+
+input[type=text]{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	background-color: white;
+	color: #777777;
+	font-size: 14px;
+	border: 1px solid #dddddd;
+	padding: 5px 20px;
+	resize: none;
+}
+
+/*portfolio stuff!*/
+.item {
+  position: relative;
+  float: left;
+  width: 180px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.item:nth-child(even) {
+  margin-right: 20px;
+}
+
+.item img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.item h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px 0;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 5px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+
+.item a{
+	color: white;
+	/*font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;*/
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #4aaaa5;
+	padding: 5px;
+	z-index: 1;
+	}
+
+
+/*
+code from older version
+
+.floatright{
+	float: right;
+}
+.floatleft{
+	float: left;
+}
+.imgcontainer{
+	width: 180px;
+	height: 60px;
+	background-image: url("images/skipAway.jpg");
+	background-size: 180px;
+	background-repeat: no-repeat;
+	padding-top: 60px;
+}*/
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
